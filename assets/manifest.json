@@ -1,0 +1,26 @@
+{
+  "base_commit": "3b421578588243f920886e6fe79a6faa87ea026e",
+  "files_sha256": {
+    "apps/desktop/src/components/chat/composer-dock.ts": "63d441f2b4fefbb2e2e69e3af25d88da364a9cfdd778b4c924a83f40abb9c4d7",
+    "apps/desktop/src/components/pet/floating-pet.tsx": "cf7d0e60b97e7f067bcbe01416ef98625aaeb45f9eb669d7997471b707b8f187",
+    "apps/desktop/src/components/pet/roam-geometry.test.ts": "a7d17f88933cd5e0b5baffb7c9091e3a1cab1af709941e7807d0a4180c3b8975",
+    "apps/desktop/src/components/pet/composer-clip.test.ts": "4092083cb66bcdc2209b5d566da9f04a15383d7f1264ea70e8af362d3cf58608",
+    "apps/desktop/src/components/pet/composer-clip.ts": "9306359b3958e01766b99c65e943444b718bd1357fe8e68877a433f962d1c06a",
+    "apps/desktop/src/components/pet/use-composer-clip.test.tsx": "abff142370c8dea71119f5ca4e0fe185acbddc468770fa25b6400092ee263a40",
+    "apps/desktop/src/components/pet/use-composer-clip.ts": "dc3575df034f02122d444fa3a771ccfbb2d5fb5c35f71986d4a39974ba5d2e3c",
+    "apps/desktop/src/components/pet/pet-sprite.tsx": "f84c77342205cf9838029abb5e4663658de620e3dde38dc33844ae337e58cbc8",
+    "apps/desktop/src/components/pet/pet-sprite.test.tsx": "ab1e7a79f205c81ad629356d71be45b8d49bb280814b0448be5bf029d39439b7"
+  },
+  "tests_passed": 42,
+  "renderer_typecheck": "passed",
+  "recovery_replay": "verified against clean git archive of base commit",
+  "behavior_audit": {
+    "src/store/pet.ts": "unchanged",
+    "src/components/pet/roam-behavior.ts": "unchanged",
+    "src/components/pet/roam-geometry.ts": "unchanged",
+    "src/components/pet/use-pet-roam.ts": "unchanged",
+    "src/components/chat/vibe-hearts.tsx": "unchanged"
+  },
+  "tabbed_session_regression": "hidden prior composer ignored; visible composer and fallback underlays covered by deterministic hook test",
+  "live_plus_route_visual_test": "not yet confirmed"
+}
